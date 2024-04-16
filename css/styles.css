@@ -1,14 +1,13 @@
 /*universal site edits*/ 
 body {
     background-color: rgba(55, 34, 34, 0.623);
-    ;
 }
 /*universal site edits*/ 
 
 /*header site settings*/
 .navbar {
     background-color: #644b70 !important;
-    border-bottom: 2px solid black;
+    border-bottom: 3px solid black;
 }
  
  header #nav {
@@ -30,6 +29,11 @@ body {
 
 }
 */
+.pt-5 {
+ border-top: 3px solid black !important;
+    padding-top: 0%;
+
+}
 
 
 

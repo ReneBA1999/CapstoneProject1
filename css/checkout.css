@@ -1,3 +1,8 @@
 h1 {
     background-color: green;
 }
+
+ main .bg-body-tertiary {
+    background-color: rgba(55, 34, 34, 0.623) !important;
+    color: white;
+}

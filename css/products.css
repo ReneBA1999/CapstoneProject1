@@ -1,10 +1,13 @@
 #main-card {
-    
     background-color: aqua;
-    
     
     }
     .shoe-row {
         background-color: red;
-          
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .shoe-row .card {
+        margin-top: 5px;
+        margin-bottom: 5px;
     }
