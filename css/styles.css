@@ -1,0 +1,52 @@
+/*universal site edits*/ 
+body {
+    background-color: rgba(55, 34, 34, 0.623);
+    ;
+}
+/*universal site edits*/ 
+
+/*header site settings*/
+.navbar {
+    background-color: #644b70 !important;
+    border-bottom: 2px solid black;
+}
+ 
+ header #nav {
+   font-weight: 700;
+   margin-left: auto;
+   margin-right: auto;
+   font-size: x-large;
+}
+
+/*.navbar-toggler-icon {
+    float:inline-end;
+}*/
+/*header site settings*/
+
+/*product site edits*/ 
+/*.container1 {
+    display: flex;
+    justify-content: space-between;
+
+}
+*/
+
+#main-card {
+    
+background-color: aqua;
+
+
+}
+.shoe-row {
+    background-color: red;
+      
+}
+
+
+/*@media screen and (max-width: 1400px)
+{
+ 
+    }
+}*/
+
+/*product site edits*/ 
