@@ -34,7 +34,7 @@ iframe {
     color: rgb(255, 88, 116);
     font-family: Concert One , sans-serif; ;
 }
-.siemprefamilia {
+/*.siemprefamilia {
     font-family: "Anton", sans-serif;
     color: rgb(50, 234, 172);
     font-size: 60px;
@@ -42,6 +42,7 @@ iframe {
     background-color: blue;
     margin-top: 5%;
 }
+/*
 .kdot {
     font-family: "Honk", system-ui;
     font-size: 50px;
@@ -60,3 +61,55 @@ iframe {
     color: whitesmoke;
 }
 /*paragraph settings*/
+
+/*mediaqueries*/
+@media screen and (max-width: 1350px) {
+    div .carousel-caption {
+        height: 90%;
+        width: 75%;
+
+    }
+    iframe {
+        height: 280px;
+        width: 400px;
+    } 
+    .paragraph {
+    font-size: 35px;
+}
+}
+@media screen and (max-width: 1120px) {
+    div .carousel-caption {
+        height: 90%;
+        width: 70%;
+    }
+    iframe {
+        height: 200px;
+        width: 300px;
+    } 
+     .freelunch {
+        font-size: 25px;
+     }
+     .paragraph {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 885px) {
+    div .carousel-caption {
+        height: 90%;
+        width: 70%;
+
+    }
+    iframe {
+        height: 180px;
+        width: 260px;
+    } 
+     .freelunch {
+        font-size: 15px;
+     }
+     .paragraph {
+        font-size: 25px;
+    }
+     
+}
+/*media queries*/
