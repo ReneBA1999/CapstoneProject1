@@ -1,20 +1,27 @@
 /*universal site edits*/ 
 body {
-    background-color: rgba(55, 34, 34, 0.623);
+    background-color: black ;
+    letter-spacing: 2px;
 }
 /*universal site edits*/ 
 
 /*header site settings*/
 .navbar {
     background-color: #644b70 !important;
-    border-bottom: 3px solid black;
+    border-bottom: 5px solid rgb(179, 68, 68);
 }
  
  header #nav {
-   font-weight: 700;
+   font-weight: 500;
    margin-left: auto;
    margin-right: auto;
-   font-size: x-large;
+   font-size: xx-large;
+   font-family: "Anton", sans-serif;
+}
+header img {
+    margin-left: 10px;
+    border: 4px solid black;
+    border-radius: 3px;
 }
 
 /*.navbar-toggler-icon {
@@ -29,13 +36,16 @@ body {
 
 }
 */
-.pt-5 {
- border-top: 3px solid black !important;
-    padding-top: 0%;
-
+/*footer*/
+ .pt-5 {
+ border-top: 4px solid rgb(179, 68, 68) !important;
+    background-color: #644b70;
+ margin-bottom: 2px;
 }
 
-
+footer {
+    padding-bottom: 40px;
+}
 
 /*@media screen and (max-width: 1400px)
 {

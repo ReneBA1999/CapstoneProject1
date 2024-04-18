@@ -1,8 +1,11 @@
+/* body settings */
 h1 {
     background-color: green;
 }
 
  main .bg-body-tertiary {
-    background-color: rgba(55, 34, 34, 0.623) !important;
+    background-color: rgb(179, 68, 68) !important;
     color: white;
 }
+/*body settings*/
+rgba(55, 34, 34, 0.623)

@@ -1,21 +1,80 @@
-
 <!doctype html>
 <html lang="en">
 
 <head>
-  <title>Checkout</title>
+  <title>Home</title>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Anton&family=Concert+One&family=Honk&family=UnifrakturCook:wght@700&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="css/home.css" />
 
 </head>
 
 <body>
   <!--navbar-->
   <header id="nav-content">
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-xl navbar-dark bg-dark" aria-label="Third navbar example">
+
+      <img src="images/x-clusive_kix_logo.JPG" alt="kixlogo" width="340px" height="70px">
+      <a class="navbar-brand" href="#">
+        <home>
+      </a>
+      <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarsExample03" aria-controls="navbarsExample03" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div id='nav' class="container text-center">
+
+        <div class="navbar-collapse collapse" id="navbarsExample03" style="">
+
+          <ul class="navbar-nav me-auto mb-2 mb-sm-0">
+
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="register.html">Register</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="login.html">Login</a>
+            </li>
+
+
+            <li class="nav-item dropdown">
+
+              <a class="nav-link dropdown-toggle" href="#products.html" data-bs-toggle="dropdown"
+                aria-expanded="false">Products</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="products.html" href="#nike">Nike</a></li>
+                <li><a class="dropdown-item" href="products.html" href="#Air-jordan">Air-Jordan</a></li>
+                <li><a class="dropdown-item" href="products.html" href="#otherkicks">Other kicks</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="checkout.html">Checkout</a>
+            </li>
+          </ul>
+
+          <div>
+            <form role="search">
+              <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+            </form>
+          </div>
+        </div>
+
+
+      </div>
+    </nav>
+    <!--<nav class="navbar navbar-expand-md bg-body-tertiary">
       <div class="container-fluid ">
         <img src="images/x-clusive_kix_logo.JPG" alt="kixlogo" width="380px" height="70px">
         <div class="container text-center">
@@ -59,29 +118,107 @@
           <button class="btn btn-outline-success" type="submit">Search</button>
         </form>
       </div>
-    </nav>
+    </nav>-->
   </header>
   <!--navbar-->
 
 
-  <main >
+  <main>
 
     <!--main content-->
-   
+    <p class="paragraph">"Welcome to X-CLUSIVE KIX, where every step is a statement! Discover a world of style,
+      comfort,
+      and quality craftsmanship right at your fingertips. Whether you're stepping out for a casual stroll or strutting
+      into a special occasion,
+      we've got the perfect pair for you. Start your journey to shoe bliss now!"</p>
+    <br>
+    <h1 class=" text-center" style="background-color: rgb(179, 68, 68);">This Months Features</h1>
+    <div class="carousel " id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/social-status-nike-dunk-free-lunch-4.jpg" class="d-block w-100"
+            alt="Free lunch nike collabs">
+          <div class="carousel-caption d-none d-md-block">
+            <figure>
+              <iframe width="559" height="386" src="videos/Free Lunch.mp4"
+                title="&quot;FREE LUNCH&quot; - A Social Status Short Film" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+                    encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen></iframe>
+              <figcaption style="font-family: Concert One , sans-serif; font-size: 40px; font-weight: bold;
+                color:  white;">"FREE LUNCH" - A Social Status Short Film</figcaption>
+            </figure>
+            <h5 class="freelunch">Nike dunks x <span style="font-family: Concert One , sans-serif;">Social Status</span> 'Free Lunch'</h5>
+            <span class="freelunch">Get these in :</span>
+            <ul class="freelunch">
+              <li class="one">
+                &bull; Chocolate milk flavor
+              </li>
+              <li class="two">
+                &bull; Strawberry milk flavor
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/DUNK-LOW-SIEMPRE-FAMILIA.jpg" class="d-block w-100" alt="dunk low siempre familia">
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="siemprefamilia">
+              Get into springstyle with these new nike releases</h5>
+            <p class="siemprefamilia">
+              
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/Kendrick-Lamar-Reebok-Respect-the-Classic.jpg" class="d-block w-100"
+            alt="kendrick lamar in reeboks">
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="kdot">Reebok Classic Leather x <span style=" font-family: UnifrakturCook, cursive; color: white;">Kendrick
+                Lamar</span> 'Perfect Split'</h5>
+            <span class="kdot">GET THESE IN :<br>&bull; White</span>
+            <p class="kdot"></p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <br>
+    <p class="paragraph">"Step into style and comfort with X-CLUSIVE KIX your ultimate destination for footwear that
+      fits every occasion!
+      Choose from some of the rarest sneakers in stock,
+      we've got your feet covered. Explore our curated collection and step up your shoe game today!"</p>
+
     <!--maincontent-->
   </main>
 
-    <!-- footer here-->
-    <footer class="my-5 pt-5 text-body-secondary text-center text-small">
-      <p class="mb-1">© Rene Banuelos 1999–2024 X-clusive kix</p>
-      <ul class="list-inline">
-        <li class="list-inline-item"><a href="#">Privacy</a></li>
-        <li class="list-inline-item"><a href="#">Terms</a></li>
-        <li class="list-inline-item"><a href="#">Support</a></li>
-      </ul>
+  <!-- footer here-->
+  <footer class="my-5 pt-5 text-body-secondary text-center text-small" >
+    <p class="mb-1">© Rene Banuelos 1999–2024 X-clusive kix</p>
+    <ul class="list-inline" >
+      <li class="list-inline-item"><a href="#">Privacy</a></li>
+      <li class="list-inline-item"><a href="#">Terms</a></li>
+      <li class="list-inline-item"><a href="#">Support</a></li>
+    </ul>
   </footer>
   <!-- footer here -->
-  
+
   <!-- Bootstrap JavaScript Libraries -->
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
     integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
