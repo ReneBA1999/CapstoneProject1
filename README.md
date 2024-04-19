@@ -8,8 +8,9 @@ login page, products page, and a checkout page.
     <img src="/images/home-page-top.JPG" alt="top Home Page" width="700">
     <img src="/images/home-page-bottom.JPG" alt="bottom Home Page" width="700">
     <img src="/images/carousel.JPG" alt="homepage carousel" width="700">
+ <p>
   Carousel switched to next page.
-<p>
+
 
 # Checkout
 
