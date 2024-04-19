@@ -1,11 +1,14 @@
 /* body settings */
 h1 {
-    background-color: green;
+    background-color: #644b70;
+    font-family: "Anton", sans-serif;
+    color: white;
+    padding-left: 10px;
 }
 
  main .bg-body-tertiary {
-    background-color: rgb(179, 68, 68) !important;
+    background-color: #644b70 !important;
     color: white;
+    
 }
 /*body settings*/
-rgba(55, 34, 34, 0.623)

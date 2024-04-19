@@ -1,8 +1,30 @@
 /*body settings*/
 h1 { font-family: "Anton", sans-serif;
-margin-top: 20px;
+margin-top: 0px;
 color: white;
 }
+
+/*paragraph settings*/
+#p1 {
+    background-image: url(/images/airjordan.jpg);
+    background-size: 150px;
+    background-repeat: repeat;
+    opacity: .9;
+}
+#p2 {
+    background-image: url(/images/airjordan.jpg);
+    background-size: 150px;
+    background-repeat: repeat;
+    opacity: .9;
+}
+.paragraph {
+    margin: 20px;
+    font-size: 45px;
+    font-family: "Anton", sans-serif;
+    color: white;
+}
+/*paragraph settings*/
+
 /*body settings*/
 
 /*carousel settings */
@@ -10,7 +32,7 @@ color: white;
     border: 20px solid rgb(34, 25, 25);
 }
 .carousel img {
-    opacity: .5;
+    opacity: .7;
 }
 iframe {
     border: 3px solid whitesmoke;
@@ -34,33 +56,21 @@ iframe {
     color: rgb(255, 88, 116);
     font-family: Concert One , sans-serif; ;
 }
-/*.siemprefamilia {
+.siemprefamilia {
     font-family: "Anton", sans-serif;
     color: rgb(50, 234, 172);
     font-size: 60px;
     font-weight: 700;
-    background-color: blue;
+    background-color: white;
     margin-top: 5%;
 }
-/*
+
 .kdot {
-    font-family: "Honk", system-ui;
-    font-size: 50px;
+    font-size: 30px;
     font-weight: 700;
-    background-color: blue;
     margin-top: 25%;
 }
 /*carousel font settings */
-
-
-/*paragraph settings*/
-.paragraph {
-    margin: 5%;
-    font-size: 45px;
-    font-family: "Anton", sans-serif;
-    color: whitesmoke;
-}
-/*paragraph settings*/
 
 /*mediaqueries*/
 @media screen and (max-width: 1350px) {
@@ -74,6 +84,14 @@ iframe {
     } 
     .paragraph {
     font-size: 35px;
+}
+.siemprefamilia {
+    font-family: "Anton", sans-serif;
+    color: rgb(50, 234, 172);
+    font-size: 35px;
+    font-weight: 700;
+    background-color: white;
+    margin-top: 5%;
 }
 }
 @media screen and (max-width: 1120px) {
@@ -90,6 +108,14 @@ iframe {
      }
      .paragraph {
         font-size: 25px;
+    }
+    .siemprefamilia {
+        font-family: "Anton", sans-serif;
+        color: rgb(50, 234, 172);
+        font-size: 25px;
+        font-weight: 700;
+        background-color: white;
+        margin-top: 5%;
     }
 }
 
@@ -108,5 +134,13 @@ iframe {
      .paragraph {
         font-size: 25px;
     }    
+    .siemprefamilia {
+        font-family: "Anton", sans-serif;
+        color: rgb(50, 234, 172);
+        font-size: 15px;
+        font-weight: 700;
+        background-color: white;
+        margin-top: 5%;
+    }
 }
 /*media queries*/

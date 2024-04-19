@@ -24,18 +24,6 @@ header img {
     border-radius: 3px;
 }
 
-/*.navbar-toggler-icon {
-    float:inline-end;
-}*/
-/*header site settings*/
-
-/*product site edits*/ 
-/*.container1 {
-    display: flex;
-    justify-content: space-between;
-
-}
-*/
 /*footer*/
  .pt-5 {
  border-top: 4px solid rgb(179, 68, 68) !important;
@@ -47,10 +35,3 @@ footer {
     padding-bottom: 40px;
 }
 /*footer*/
-/*@media screen and (max-width: 1400px)
-{
- 
-    }
-}*/
-
-/*product site edits*/ 
