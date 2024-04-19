@@ -39,7 +39,7 @@ login page, products page, and a checkout page.
 
 #
 
-One iteresting piece of code that I wrote within this project. I'd say is experimenting with the media queries, and sizing them up within my website carousel so that the video display is just right, whether you're viewing it from a laptop, tablet, or mobile device. 
+One interesting piece of code that I wrote within this project. I'd say is experimenting with the media queries, and sizing them up within my website carousel so that the video display is just right, whether you're viewing it from a laptop, tablet, or mobile device. 
 
  <p>
     <img src="/images/intresting-css.JPG" alt="interesting code" width="700">
