@@ -1,6 +1,6 @@
 # CapstoneProject1Nav
 
-Web project, that consists of a few pages which includes a home page, registration page,
+This is my shoe web project, it consists of a few pages which includes a home page, registration page,
 login page, products page, and a checkout page.
 
 # Home
