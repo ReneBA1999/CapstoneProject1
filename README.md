@@ -7,6 +7,8 @@ login page, products page, and a checkout page.
 <p>
     <img src="/images/home-page-top.JPG" alt="top Home Page" width="700">
     <img src="/images/home-page-bottom.JPG" alt="bottom Home Page" width="700">
+    <img src="/images/carousel.JPG" alt="homepage carousel" width="700">
+  Carousel switched to next page.
 <p>
 
 # Checkout
@@ -36,7 +38,7 @@ login page, products page, and a checkout page.
 
 #
 
-An iteresting piece of code that I wrote within this project, was experimenting with the media queries and sizing them up within my website carousel so that the display is just right whether you're viewing it from a laptop, tablet, or mobile device. 
+One iteresting piece of code that I wrote within this project. I'd say is experimenting with the media queries, and sizing them up within my website carousel so that the video display is just right, whether you're viewing it from a laptop, tablet, or mobile device. 
 
  <p>
     <img src="/images/intresting-css.JPG" alt="interesting code" width="700">
