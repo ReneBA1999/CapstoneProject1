@@ -1,12 +1,13 @@
 # CapstoneProject1Nav
 
-This is my shoe web project, it consists of a few pages which includes a home page, registration page,
+This is my shoe web project. It consists of a few pages which includes a home page, registration page,
 login page, products page, and a checkout page.
 
 # Home
 <p>
     <img src="/images/home-page-top.JPG" alt="top Home Page" width="700">
     <img src="/images/home-page-bottom.JPG" alt="bottom Home Page" width="700">
+    <img src="/images/carousel-1.JPG" alt="homepage carousel" width="700">
     <img src="/images/carousel.JPG" alt="homepage carousel" width="700">
  <p>
   Carousel switched to next page.
